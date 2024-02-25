@@ -1,0 +1,73 @@
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #EEFFF8;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            padding: 40px;
+            background-color: #adebad;
+            box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px 10px 10px 10px;
+        }
+        .form-heading {
+            margin-right: 10px;
+            width: 175px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .form-fields {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+            text-align: left;
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            margin-left: 110px;
+        }
+        input[type="password"], input[type="email"] {
+            border-radius: 7px;
+        }
+        input[type="submit"] {
+            border-radius: 7px;
+            background-color: #77dd77;
+            color: #fff;
+            font-size: 15px;
+            width: 110px;
+            padding: 8px;
+            border: none;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+        }
+        input[type="submit"]:hover {
+            background-color: #5C8EE6;
+        }
+        .teks-login {
+            font-size: 40px;
+            margin: 0;
+            color: #fff;
+            background-color: #77dd77;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+        }
+        .teks-form {
+            font-size: 40px;
+            margin: 0;
+            color: #77dd77;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 0 0 10px 10px;
+        }
+  

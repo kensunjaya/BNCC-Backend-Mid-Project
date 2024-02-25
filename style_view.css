@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EEFFF8;
+    padding: 25px;
+}
+
+.form-heading {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-fields {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-fields label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.form-fields input[type="text"],
+.form-fields input[type="email"],
+.form-fields textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    max-width: 100%; 
+    resize: vertical; 
+}
